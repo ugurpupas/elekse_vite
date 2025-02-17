@@ -1,0 +1,20 @@
+.homeDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  /* background-color: var(--color-bg-home); */
+  background-color: #ffffff;
+}
+
+.homeLayout {
+  height: 100%;
+}
+
+/* Hero Section */
+
+.heroLayout {
+  flex: 1;
+}
