@@ -1,4 +1,8 @@
 .home-navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
   color: var(--color-content-main);
   width: 100%;
   display: flex;
@@ -10,9 +14,6 @@
 
 .navbar-wrapper {
   padding: 12px 140px;
-}
-
-.navbar-left {
 }
 
 .navbar-middle {
@@ -27,4 +28,8 @@
 }
 
 .navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
 }

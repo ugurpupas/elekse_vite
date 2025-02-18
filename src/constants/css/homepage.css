@@ -1,4 +1,5 @@
 .homeDisplay {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,6 +15,17 @@
 }
 
 /* Hero Section */
+
+.hero-display {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: var(--color-bg-home); */
+  background-color: red;
+}
 
 .heroLayout {
   flex: 1;

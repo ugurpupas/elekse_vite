@@ -1,9 +1,42 @@
-import React from 'react'
+import React from "react";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className='heroLayout'>HeroSection</div>
-  )
-}
+    <div 
+      className="heroLayout" 
+      style={{ 
+        position: "relative", 
+        overflow: "hidden",
+        width: "100%",
+        height: "100vh",
+        background: "var(--color-bg-home)"
+      }}
+    >
+      <motion.div
+        style={{
+          position: "absolute",
+          bottom: 0,
+          left: 0,
+          width: "300%",
+          height: "80%",
+          background: `
+            url('/src/assets/Lights.png'),
+            url('/src/assets/lights-mirror.png')
+          `,
+          backgroundSize: "50% 100%",
+          backgroundRepeat: "repeat-x",
+          backgroundPosition: "100% 0%, 100% 0%",
+        }}
+        animate={{ x: "-50%" }}
+        transition={{
+          duration: 15,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+      />
+    </div>
+  );
+};
 
-export default HeroSection
+export default HeroSection;

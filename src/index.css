@@ -1,8 +1,13 @@
 @import "./constants/foundations/colors.css";
+@import "./constants/foundations/borders.css";
 @import "./constants/css/fixed-typograhpy.css";
+
 @import "./constants/css/homepage.css";
 @import "./constants/css/navbar.css";
 @import "./constants/css/footer.css";
+@import "./constants/css/switch.css";
+@import "./constants/css/button.css";
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 :root {
@@ -30,7 +35,15 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: green;
+}
+
+.display-layout-navbar {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .display-layout-column {

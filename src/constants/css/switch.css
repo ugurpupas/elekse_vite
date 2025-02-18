@@ -1,0 +1,24 @@
+.switch-layout {
+  /* background-color: var(--color-bg-secondary); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius-full);
+  cursor: pointer;
+  color: var(--color-content-main);
+  width: 70px;
+}
+
+.active-language {
+  background-color: var(--color-bg-home);
+  color: var(--color-content-main);
+  padding: 7px 12px;
+  border-radius: var(--border-radius-full);
+  transition: all 0.3 ease-in-out;
+}
+
+.passive-language {
+  transition: all 0.3 ease-in-out;
+  padding: 7px 12px;
+  border-radius: var(--border-radius-full);
+}

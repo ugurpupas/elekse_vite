@@ -1,0 +1,19 @@
+.button-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius-full);
+  padding: 7px 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-layout:hover {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+}
+
+.button-layout:active {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.95;
+}

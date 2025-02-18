@@ -2,12 +2,15 @@ import React from "react";
 import { LOGOS } from "../icons/icons.jsx";
 import { navbarTitles } from "../../constants/titles/homeTitles.jsx";
 import { useTranslation } from "react-i18next";
+import LanguageSwitch from "../switch/LanguageSwitch.jsx";
+import PrimaryButton from "../button/PrimaryButton.jsx";
 
 const HomePageNavbar = () => {
   const { t } = useTranslation();
+
   return (
     <div className="home-navbar  body-14-semibold">
-      <div className="display-layout-row navbar-wrapper ">
+      <div className="display-layout-navbar navbar-wrapper ">
         <div className="navbar-left">
           <div className="icon-layout">{LOGOS.PARAX.NAVBAR_LOGO}</div>
         </div>
@@ -20,7 +23,15 @@ const HomePageNavbar = () => {
           ))}
         </div>
 
-        <div className="navbar-right"></div>
+        <div className="navbar-right">
+          <LanguageSwitch />
+
+          <PrimaryButton
+            title={t("panel_login")}
+            bac={"var(--color-bg-secondary)"}
+            textColor={"var(--color-content-text)"}
+          />
+        </div>
       </div>
     </div>
   );

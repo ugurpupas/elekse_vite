@@ -1,7 +1,12 @@
 :root {
   /* Background Colors */
   --color-bg-home: #000000;
+  --color-bg-secondary: #FFFFFF;
 
   /* Content Colors */
   --color-content-main: #ffffff;
+  --color-content-text: #000000;
+
+  /* Base Colors */
+  --color-main-black:#000000
 }

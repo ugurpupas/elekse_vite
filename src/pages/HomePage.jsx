@@ -6,11 +6,14 @@ import HeroSection from "../components/home/HeroSection";
 const HomePage = () => {
   return (
     <div className="homeDisplay">
-      <HomePageNavbar />
+      {/* Hero Section */}
+      <div className="hero-display">
+        <HomePageNavbar />
 
-      <HeroSection />
+        <HeroSection />
 
-      <HomepageFooter />
+        <HomepageFooter />
+      </div>
     </div>
   );
 };

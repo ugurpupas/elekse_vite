@@ -5,3 +5,5 @@ export const navbarTitles = [
   "blog",
   "developer",
 ];
+
+export const languages = ["TR", "EN"];
