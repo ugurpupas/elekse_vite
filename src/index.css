@@ -28,18 +28,18 @@ a {
   text-decoration: none;
 }
 
-.display-layout-row {
+.display-layout-navbar {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1920px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.display-layout-navbar {
+.display-layout-row {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1440px;
   display: flex;
   flex-direction: row;
   align-items: center;

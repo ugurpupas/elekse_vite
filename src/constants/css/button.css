@@ -6,6 +6,7 @@
   padding: 7px 16px;
   text-align: center;
   cursor: pointer;
+  width: auto;
 }
 
 .button-layout:hover {

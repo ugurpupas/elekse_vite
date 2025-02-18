@@ -1,3 +1,13 @@
+/* Regular */
+.body-12-regular {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+/* Semi Bold */
 .body-12-semibold {
   font-family: Plus Jakarta Sans;
   font-weight: 600;
@@ -14,4 +24,20 @@
   line-height: 20px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.body-20-semibold {
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.body-56-semibold {
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 70.56px;
+  letter-spacing: 0%;
 }

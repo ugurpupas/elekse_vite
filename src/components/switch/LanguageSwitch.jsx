@@ -15,10 +15,12 @@ const LanguageSwitch = () => {
   };
 
   useEffect(() => {
-    const storedLang = localStorage.getItem("elekse_lang").toUpperCase();
+    const storedLang = localStorage.getItem("elekse_lang");
 
     storedLang &&
-      i18n.changeLanguage(storedLang).then(() => setActiveLang(storedLang));
+      i18n
+        .changeLanguage(storedLang)
+        .then(() => setActiveLang(storedLang.toUpperCase()));
   }, []);
 
   return (

@@ -4,5 +4,20 @@
   "contact": "Contact",
   "blog": "Blog",
   "developer": "Developer",
-  "panel_login": "Panel Login"
+  "panel_login": "Panel Login",
+  "new_financial_solutions": "Next-generation financial solutions",
+  "remove_limits": "Remove the limits!",
+  "instant_payments_worldwide": "Receive instant payments anywhere in the world.",
+
+  "virtual_pos": "Virtual POS",
+  "virtual_pos_desc": "No need to wait any longer to accept online payments. Start e-commerce with a single integration on your website.",
+  "apply_virtual_pos": "Apply for Virtual POS",
+
+  "physical_pos": "Physical POS",
+  "physical_pos_desc": "No need to wait any longer to accept online payments. Start e-commerce with a single integration on your website.",
+  "apply_physical_pos": "Apply for Physical POS",
+
+  "mobile_pos": "Mobile POS",
+  "mobile_pos_desc": "No need to wait any longer to accept online payments. Start e-commerce with a single integration on your website.",
+  "apply_mobile_pos": "Apply for Mobile POS"
 }

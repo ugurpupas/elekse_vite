@@ -6,8 +6,8 @@
   width: 100vw;
   height: 100vh;
   overflow-y: scroll;
-  /* background-color: var(--color-bg-home); */
-  background-color: #ffffff;
+  background-color: var(--color-bg-home);
+  /* background-color: #ffffff; */
 }
 
 .homeLayout {
@@ -24,9 +24,46 @@
   width: 100vw;
   height: 100vh;
   /* background-color: var(--color-bg-home); */
-  background-color: red;
 }
 
 .heroLayout {
   flex: 1;
+}
+
+.hero-content-layout {
+  color: var(--color-content-main);
+  z-index: 12;
+  height: 253px;
+  width: 762px !important;
+  background-color: transparent;
+}
+
+.hero-content-cards-layout {
+  z-index: 10;
+  width: 963px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-card-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.hero-card-layout {
+  width: 250px;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-card-title {
+  color: var(--color-content-main);
+}
+
+.hero-card-content {
+  color: var(--color-white-80);
 }

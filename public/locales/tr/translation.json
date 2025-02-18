@@ -4,5 +4,20 @@
   "contact": "İletişim",
   "blog": "Blog",
   "developer": "Geliştirici",
-  "panel_login": "Panele Giriş"
+  "panel_login": "Panele Giriş",
+  "new_financial_solutions": "Yeni nesil finansal çözümler",
+  "remove_limits": "Sınırları kaldır!",
+  "instant_payments_worldwide": "Dünya’nın her yerinde anında ödeme alın.",
+
+  "virtual_pos": "Sanal POS",
+  "virtual_pos_desc": "Online ödeme almak için daha fazla beklemenize gerek yok. Web sitenizden tek bir entegrasyon ile e-ticarete adım atın.",
+  "apply_virtual_pos": "Sanal POS’a Başvur",
+
+  "physical_pos": "Fiziki POS",
+  "physical_pos_desc": "Online ödeme almak için daha fazla beklemenize gerek yok. Web sitenizden tek bir entegrasyon ile e-ticarete adım atın.",
+  "apply_physical_pos": "Fiziki POS’a Başvur",
+
+  "mobile_pos": "Mobil POS",
+  "mobile_pos_desc": "Online ödeme almak için daha fazla beklemenize gerek yok. Web sitenizden tek bir entegrasyon ile e-ticarete adım atın.",
+  "apply_mobile_pos": "Mobil POS’a Başvur"
 }

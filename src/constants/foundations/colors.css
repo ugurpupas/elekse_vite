@@ -1,12 +1,19 @@
 :root {
   /* Background Colors */
   --color-bg-home: #000000;
-  --color-bg-secondary: #FFFFFF;
+  --color-bg-secondary: #ffffff;
+
+  /* Button Colors */
+  --color-btn-opacity-10: #ffffff1a;
 
   /* Content Colors */
   --color-content-main: #ffffff;
   --color-content-text: #000000;
 
   /* Base Colors */
-  --color-main-black:#000000
+  --color-main-black: #000000;
+
+  /* Opacity White */
+  --color-white-10: #ffffff1a;
+  --color-white-80: #ffffffcc;
 }
