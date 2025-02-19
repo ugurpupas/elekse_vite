@@ -33,3 +33,34 @@
   align-items: center;
   gap: 12px;
 }
+
+@media (max-width: 1100px) {
+  .navbar-wrapper {
+    padding: 12px 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  .navbar-wrapper {
+    padding: 12px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-middle {
+    display: none;
+  }
+
+  .navbar-right {
+    gap: 8px;
+  }
+
+  .navbar-wrapper {
+    width: 100%;
+    padding: 12px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

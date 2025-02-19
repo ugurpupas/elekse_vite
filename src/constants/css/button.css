@@ -7,6 +7,7 @@
   text-align: center;
   cursor: pointer;
   width: auto;
+  white-space: nowrap;
 }
 
 .button-layout:hover {
@@ -17,4 +18,26 @@
 .button-layout:active {
   transition: all 0.3s ease-in-out;
   opacity: 0.95;
+}
+
+.button-hamburger-layout {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .button-layout {
+    display: none;
+  }
+
+  .button-hamburger-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-full);
+    padding: 7px 7px;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    white-space: nowrap;
+  }
 }

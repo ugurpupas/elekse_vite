@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import LanguageSwitch from "../switch/LanguageSwitch.jsx";
 import PrimaryButton from "../button/PrimaryButton.jsx";
 import { motion } from "framer-motion";
+import PrimaryMenuButton from "../button/PrimaryMenuButton.jsx";
 
 const HomePageNavbar = () => {
   const { t } = useTranslation();
@@ -41,6 +42,10 @@ const HomePageNavbar = () => {
             title={t("panel_login")}
             bac={"var(--color-bg-secondary)"}
             textColor={"var(--color-content-text)"}
+          />
+          <PrimaryMenuButton
+            bac={"var(--color-bg-home)"}
+            textColor={"var(--color-content-main)"}
           />
         </div>
       </div>

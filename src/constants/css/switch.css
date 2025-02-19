@@ -2,7 +2,7 @@
   /* background-color: var(--color-bg-secondary); */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   border-radius: var(--border-radius-full);
   cursor: pointer;
   color: var(--color-content-main);
