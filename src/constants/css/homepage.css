@@ -6,8 +6,7 @@
   width: 100vw;
   height: 100vh;
   overflow-y: scroll;
-  background-color: var(--color-bg-home);
-  /* background-color: #ffffff; */
+  background-color: black;
 }
 
 .homeLayout {
@@ -104,6 +103,20 @@
   background-color: transparent;
 }
 
+.hero-content-titles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.hero-content-sm-title {
+  background: linear-gradient(90deg, #e1faff 0%, #7ce5fc 48.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hero-content-cards-layout {
   z-index: 10;
   width: 963px;
@@ -142,22 +155,4 @@
 
 .hero-card-seperator:last-of-type {
   display: none;
-}
-
-/* Footer */
-
-.hero-footer {
-  height: 80px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  max-width: 1440px;
-  overflow: hidden;
-}
-
-.brands-wrapper {
-  display: flex;
-  flex-direction: row;
-  gap: 70px;
 }

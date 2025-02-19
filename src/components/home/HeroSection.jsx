@@ -5,6 +5,7 @@ import { heroContentCardData } from "../../constants/titles/homeTitles";
 import HeroContentCard from "./HeroContentCard";
 import SlidingImageRight from "./SlidingImageRight";
 import SlidingImageLeft from "./SlidingImageLeft";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -23,20 +24,53 @@ const HeroSection = () => {
           style={{ color: "white" }}
         >
           <div className="hero-content-titles">
-            <h4 className="hero-content-sm-title body-20-semibold">
+            <motion.h4
+              className="hero-content-sm-title body-20-semibold"
+              animate={{
+                y: ["5%", "0%"],
+                opacity: [0, 1],
+              }}
+              transition={{
+                delay: 0.3,
+                duration: 0.7,
+                ease: "backInOut",
+              }}
+            >
               {t("new_financial_solutions")}
-            </h4>
-            <h2 className="hero-content-lg-title body-56-semibold">
+            </motion.h4>
+            <motion.h2
+              className="hero-content-lg-title body-56-semibold"
+              animate={{
+                y: ["5%", "0%"],
+                opacity: [0, 1],
+              }}
+              transition={{
+                delay: 0.5,
+                duration: 0.7,
+                ease: "backInOut",
+              }}
+            >
               <span>{t("remove_limits")}</span>
               <br />
               <span>{t("instant_payments_worldwide")}</span>
-            </h2>
+            </motion.h2>
           </div>
         </div>
 
         <div className="hero-content-cards-layout">
           {heroContentCardData.map((card, index) => (
-            <div key={index}>
+            <motion.div
+              key={index}
+              animate={{
+                y: ["5%", "0%"],
+                opacity: [0, 1],
+              }}
+              transition={{
+                delay: 0.7,
+                duration: 0.7 + index * 0.3,
+                ease: "backInOut",
+              }}
+            >
               <HeroContentCard
                 icon={card.icon}
                 title={card.title}
@@ -45,7 +79,7 @@ const HeroSection = () => {
               />
 
               <div className="hero-card-seperator"></div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

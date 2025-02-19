@@ -1,0 +1,17 @@
+/* Footer */
+
+.hero-footer {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1440px;
+    overflow: hidden;
+  }
+  
+  .brands-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+  }
+  

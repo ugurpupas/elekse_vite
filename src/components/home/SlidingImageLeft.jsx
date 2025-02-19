@@ -6,13 +6,14 @@ const SlidingImageLeft = () => {
     <motion.div
       className="sliding-coin-left"
       animate={{
-        opacity: [0.01, 1],
-        x: ["-80%", "-20%"],
+        opacity: [0, 1],
+        x: ["-100%", "-20%"],
+        y: ["-35%", "0%"],
       }}
-      //   animate={{ x: "-50%" }}
       transition={{
+        delay: 0.13,
         type: "spring",
-        stiffness: 40,
+        stiffness: 30,
         damping: 8,
         bounce: 0.3,
         duration: 1.2,
