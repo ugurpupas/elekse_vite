@@ -7,7 +7,7 @@ const SlidingBackground = () => {
       className="sliding-lights"
       animate={{ x: "-50%" }}
       transition={{
-        duration: 12,
+        duration: 8,
         repeat: Infinity,
         ease: "linear",
       }}

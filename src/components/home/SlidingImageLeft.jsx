@@ -7,14 +7,16 @@ const SlidingImageLeft = () => {
       className="sliding-coin-left"
       animate={{
         opacity: [0.01, 1],
-        x: ["-50%", "0"],
+        x: ["-80%", "-20%"],
       }}
       //   animate={{ x: "-50%" }}
       transition={{
-        duration: 2,
-        type: "keyframes",
-
-        // ease: "linear",
+        type: "spring",
+        stiffness: 40,
+        damping: 8,
+        bounce: 0.3,
+        duration: 1.2,
+        ease: "circOut",
       }}
     />
   );

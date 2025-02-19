@@ -27,18 +27,28 @@
   background-position: 100% 0%, 100% 0%;
 }
 
-
 .sliding-coin-right {
   z-index: 2;
   position: absolute;
   top: 0;
   right: 0;
-  width: 620px;
-  height: 500px;
-  background: url("/src/assets/Image_right.png");
-  /* background-size: 50% 100%; */
-  /* background-repeat: repeat-x; */
-  /* background-position: 100% 0%, 100% 0%; */
+  width: 650px;
+  height: 650px;
+  background: url("/src/assets/Image_right.avif");
+  background-size: 100%;
+  object-fit: cover;
+}
+
+.sliding-coin-right-2 {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 350px;
+  background: url("/src/assets/Image_right_2.avif");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .sliding-coin-left {
@@ -46,12 +56,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 180px;
-  height: 220px;
-  background: url("/src/assets/Image_left.png");
-  /* background-size: 50% 100%; */
-  /* background-repeat: repeat-x; */
-  /* background-position: 100% 0%, 100% 0%; */
+  width: 250px;
+  height: 250px;
+  background: url("/src/assets/Image_left.avif");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /* Hero Section */
