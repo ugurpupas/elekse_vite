@@ -4,15 +4,26 @@ import { navbarTitles } from "../../constants/titles/homeTitles.jsx";
 import { useTranslation } from "react-i18next";
 import LanguageSwitch from "../switch/LanguageSwitch.jsx";
 import PrimaryButton from "../button/PrimaryButton.jsx";
+import { motion } from "framer-motion";
 
 const HomePageNavbar = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="home-navbar  body-14-semibold">
+    <motion.div
+      className="home-navbar  body-14-semibold"
+      animate={{
+        opacity: [0, 1],
+        y: ["-80%", "0%"],
+      }}
+      transition={{
+        ease: "circOut",
+        duration: 1.2,
+      }}
+    >
       <div className="display-layout-navbar navbar-wrapper ">
         <div className="navbar-left">
-          <div className="icon-layout">{LOGOS.PARAX.NAVBAR_LOGO}</div>
+          <div className="icon-layout">{LOGOS.ELEKSE.NAVBAR_LOGO}</div>
         </div>
 
         <div className="navbar-middle">
@@ -33,7 +44,7 @@ const HomePageNavbar = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
