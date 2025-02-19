@@ -27,6 +27,33 @@
   background-position: 100% 0%, 100% 0%;
 }
 
+
+.sliding-coin-right {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 620px;
+  height: 500px;
+  background: url("/src/assets/Image_right.png");
+  /* background-size: 50% 100%; */
+  /* background-repeat: repeat-x; */
+  /* background-position: 100% 0%, 100% 0%; */
+}
+
+.sliding-coin-left {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 220px;
+  background: url("/src/assets/Image_left.png");
+  /* background-size: 50% 100%; */
+  /* background-repeat: repeat-x; */
+  /* background-position: 100% 0%, 100% 0%; */
+}
+
 /* Hero Section */
 
 .hero-display {

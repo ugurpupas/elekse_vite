@@ -3,6 +3,8 @@ import SlidingBackground from "./SlidingBackground";
 import { useTranslation } from "react-i18next";
 import { heroContentCardData } from "../../constants/titles/homeTitles";
 import HeroContentCard from "./HeroContentCard";
+import SlidingImageRight from "./SlidingImageRight";
+import SlidingImageLeft from "./SlidingImageLeft";
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -10,6 +12,10 @@ const HeroSection = () => {
   return (
     <div className="heroLayout">
       <SlidingBackground />
+
+      <SlidingImageRight />
+
+      <SlidingImageLeft />
 
       <div className="hero-subwrapper">
         <div
