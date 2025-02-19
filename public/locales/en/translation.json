@@ -9,15 +9,15 @@
   "remove_limits": "Remove the limits!",
   "instant_payments_worldwide": "Receive instant payments anywhere in the world.",
 
-  "virtual_pos": "Virtual POS",
-  "virtual_pos_desc": "No need to wait any longer to accept online payments. Start e-commerce with a single integration on your website.",
-  "apply_virtual_pos": "Apply for Virtual POS",
+  "flexible_pos": "Flexible POS",
+  "flexible_pos_desc": "No need to wait any longer to accept online payments. Start e-commerce with a single integration on your website.",
+  "apply_flexible_pos": "Apply for POS",
 
-  "physical_pos": "Physical POS",
-  "physical_pos_desc": "No need to wait any longer to accept online payments. Start e-commerce with a single integration on your website.",
-  "apply_physical_pos": "Apply for Physical POS",
+  "flexible_wallet": "Flexible Wallet",
+  "flexible_wallet_desc": "Earn, convert, and spend with your digital wallet! Manage all financial transactions easily, from money transfers to payments.",
+  "download_flexible_wallet": "Download Flexible Wallet",
 
-  "mobile_pos": "Mobile POS",
-  "mobile_pos_desc": "No need to wait any longer to accept online payments. Start e-commerce with a single integration on your website.",
-  "apply_mobile_pos": "Apply for Mobile POS"
+  "flexible_invoice": "Flexible Invoice",
+  "flexible_invoice_desc": "All payment transactions in one place! Provide services from bill payments to transfers, subscriptions, and even insurance.",
+  "apply_flexible_invoice": "Apply for Flexible Invoice"
 }

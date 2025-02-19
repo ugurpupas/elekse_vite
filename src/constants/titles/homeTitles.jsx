@@ -12,22 +12,22 @@ export const languages = ["TR", "EN"];
 
 export const heroContentCardData = [
   {
-    title: "virtual_pos",
-    content: "virtual_pos_desc",
-    button: "apply_virtual_pos",
-    icon: ICONS.CUSTOM.VIRTUAL_POS,
+    title: "flexible_pos",
+    content: "flexible_pos_desc",
+    button: "apply_flexible_pos",
+    icon: ICONS.CUSTOM.FLEXIBLE_POS,
   },
   {
-    title: "physical_pos",
-    content: "physical_pos_desc",
-    button: "apply_physical_pos",
-    icon: ICONS.CUSTOM.PHYSICAL_POS,
+    title: "flexible_wallet",
+    content: "flexible_wallet_desc",
+    button: "download_flexible_wallet",
+    icon: ICONS.CUSTOM.FLEXIBLE_WALLET,
   },
   {
-    title: "mobile_pos",
-    content: "mobile_pos_desc",
-    button: "apply_mobile_pos",
-    icon: ICONS.CUSTOM.MOBILE_POS,
+    title: "flexible_invoice",
+    content: "flexible_invoice_desc",
+    button: "apply_flexible_invoice",
+    icon: ICONS.CUSTOM.FLEXIBLE_INVOICE,
   },
 ];
 

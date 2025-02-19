@@ -9,15 +9,15 @@
   "remove_limits": "Sınırları kaldır!",
   "instant_payments_worldwide": "Dünya’nın her yerinde anında ödeme alın.",
 
-  "virtual_pos": "Sanal POS",
-  "virtual_pos_desc": "Online ödeme almak için daha fazla beklemenize gerek yok. Web sitenizden tek bir entegrasyon ile e-ticarete adım atın.",
-  "apply_virtual_pos": "Sanal POS’a Başvur",
+  "flexible_pos": "Esnek POS",
+  "flexible_pos_desc": "Online ödeme almak için daha fazla beklemenize gerek yok. Web sitenizden tek bir entegrasyon ile e-ticarete adım atın.",
+  "apply_flexible_pos": "POS’a Başvur",
 
-  "physical_pos": "Fiziki POS",
-  "physical_pos_desc": "Online ödeme almak için daha fazla beklemenize gerek yok. Web sitenizden tek bir entegrasyon ile e-ticarete adım atın.",
-  "apply_physical_pos": "Fiziki POS’a Başvur",
+  "flexible_wallet": "Esnek Cüzdan",
+  "flexible_wallet_desc": "Dijital cüzdan ile kazan, dönüştür, harca! Para transferinden, ödemelere kadar tüm finans işlemlerini kolayca yönetmeye başla.",
+  "download_flexible_wallet": "Esnek Cüzdan’ı İndir",
 
-  "mobile_pos": "Mobil POS",
-  "mobile_pos_desc": "Online ödeme almak için daha fazla beklemenize gerek yok. Web sitenizden tek bir entegrasyon ile e-ticarete adım atın.",
-  "apply_mobile_pos": "Mobil POS’a Başvur"
+  "flexible_invoice": "Esnek Fatura",
+  "flexible_invoice_desc": "Tüm ödeme işlemlerini tek noktada! Fatura’dan transfere abonelik işlemlerinden sigortaya kadar hizmet sağlayın.",
+  "apply_flexible_invoice": "Esnek Fatura’ya Başvur"
 }
