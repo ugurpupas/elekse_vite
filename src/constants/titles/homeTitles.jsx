@@ -30,3 +30,16 @@ export const heroContentCardData = [
     icon: ICONS.CUSTOM.MOBILE_POS,
   },
 ];
+
+export const brandTitles = [
+  "PLATIN_MARKET",
+  "T_SOFT",
+  "SOFTTR",
+  "EMC",
+  "JETTEK",
+  "PROJE",
+  "NOVTEK",
+  "HEWESO",
+  "AYASOFYAZILIM",
+  "DATAKOLAY",
+];

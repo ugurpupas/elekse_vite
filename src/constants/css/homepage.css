@@ -14,6 +14,19 @@
   height: 100%;
 }
 
+.sliding-lights {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300%;
+  height: 80%;
+  background: url("/src/assets/Lights.png"),
+    url("/src/assets/lights-mirror.png");
+  background-size: 50% 100%;
+  background-repeat: repeat-x;
+  background-position: 100% 0%, 100% 0%;
+}
+
 /* Hero Section */
 
 .hero-display {
@@ -28,6 +41,23 @@
 
 .heroLayout {
   flex: 1;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: var(--color-bg-home);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-subwrapper {
+  z-index: 2;
+  width: 1160px;
+  max-width: 1280px;
+  gap: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-content-layout {
@@ -66,4 +96,32 @@
 
 .hero-card-content {
   color: var(--color-white-80);
+}
+
+.hero-card-seperator {
+  width: 1px;
+  height: 160px;
+  border: 1px solid var(--color-white-10);
+}
+
+.hero-card-seperator:last-of-type {
+  display: none;
+}
+
+/* Footer */
+
+.hero-footer {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  max-width: 1440px;
+  overflow: hidden;
+}
+
+.brands-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
 }
