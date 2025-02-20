@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { LOGOS } from "../icons/icons.jsx";
 import { navbarTitles } from "../../constants/titles/homeTitles.jsx";
 import { useTranslation } from "react-i18next";
@@ -6,9 +6,27 @@ import LanguageSwitch from "../switch/LanguageSwitch.jsx";
 import PrimaryButton from "../button/PrimaryButton.jsx";
 import { motion } from "framer-motion";
 import PrimaryMenuButton from "../button/PrimaryMenuButton.jsx";
+import MenuModal from "../modal/MenuModal.jsx";
 
 const HomePageNavbar = () => {
   const { t } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const handleMenu = () => {
+    setIsOpen((prev) => !prev);
+  };
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [windowWidth]);
 
   return (
     <motion.div
@@ -45,9 +63,12 @@ const HomePageNavbar = () => {
             textColor={"var(--color-content-text)"}
           />
           <PrimaryMenuButton
+            onClick={handleMenu}
             bac={"var(--color-bg-home)"}
             textColor={"var(--color-content-main)"}
           />
+
+          <MenuModal isOpen={isOpen} />
         </div>
       </div>
     </motion.div>

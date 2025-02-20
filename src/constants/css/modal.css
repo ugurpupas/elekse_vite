@@ -1,0 +1,26 @@
+.navbar-menu-modal {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  padding: 0 40px;
+  gap: 6px;
+  align-items: end;
+}
+
+.navbar-menu-titles {
+  color: var(--color-content-main);
+  text-shadow: 0 0 3px black;
+}
+
+.navbar-menu-titles:hover {
+  transition: all 0.3s ease-in-out;
+  scale: 1.1;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu-modal {
+    display: flex;
+  }
+}
