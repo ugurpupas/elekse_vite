@@ -34,7 +34,32 @@
   letter-spacing: 0%;
 }
 
-.body-56-semibold {
+.body-14-medium {
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+/* Title */
+.title-24-semibold {
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+
+.title-40-semibold {
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50.4px;
+  letter-spacing: 0%;
+}
+
+.title-56-semibold {
   font-family: Plus Jakarta Sans;
   font-weight: 600;
   font-size: 56px;

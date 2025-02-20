@@ -39,7 +39,7 @@ const HeroSection = () => {
               {t("new_financial_solutions")}
             </motion.h4>
             <motion.h2
-              className="hero-content-lg-title body-56-semibold"
+              className="hero-content-lg-title title-56-semibold"
               animate={{
                 y: ["5%", "0%"],
                 opacity: [0, 1],
@@ -58,29 +58,35 @@ const HeroSection = () => {
         </div>
 
         <div className="hero-content-cards-layout">
-          {heroContentCardData.map((card, index) => (
-            <motion.div
-              key={index}
-              animate={{
-                y: ["5%", "0%"],
-                opacity: [0, 1],
-              }}
-              transition={{
-                delay: 0.7,
-                duration: 0.7 + index * 0.3,
-                ease: "backInOut",
-              }}
-            >
-              <HeroContentCard
-                icon={card.icon}
-                title={card.title}
-                content={card.content}
-                buttonTitle={card.button}
-              />
+          {heroContentCardData.map((card, index) => {
+            return (
+              <motion.div
+                key={index}
+                animate={{
+                  y: ["5%", "0%"],
+                  opacity: [0, 1],
+                }}
+                transition={{
+                  delay: 0.7,
+                  duration: 0.7 + index * 0.3,
+                  ease: "backInOut",
+                }}
+                className="hero-content-card-gap"
+              >
+                <HeroContentCard
+                  icon={card.icon}
+                  title={card.title}
+                  content={card.content}
+                  buttonTitle={card.button}
+                />
 
-              <div className="hero-card-seperator"></div>
-            </motion.div>
-          ))}
+                <div
+                  style={{ display: index === 2 && "none" }}
+                  className="hero-card-seperator"
+                ></div>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </div>

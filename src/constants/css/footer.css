@@ -1,17 +1,23 @@
 /* Footer */
 
 .hero-footer {
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 1440px;
-    overflow: hidden;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1440px;
+  overflow: hidden;
+}
+
+.brands-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+@media (max-width: 768px) {
+  .hero-footer {
+    height: 40px;
+
   }
-  
-  .brands-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 70px;
-  }
-  
+}

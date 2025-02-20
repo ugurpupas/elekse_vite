@@ -88,7 +88,6 @@
 }
 .hero-subwrapper {
   z-index: 2;
-  width: 1160px;
   max-width: 1280px;
   gap: 80px;
   display: flex;
@@ -126,6 +125,13 @@
   justify-content: space-between;
 }
 
+.hero-content-card-gap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 53px;
+}
+
 .hero-card-icon {
   width: 100px;
   height: 100px;
@@ -153,6 +159,151 @@
   border: 1px solid var(--color-white-10);
 }
 
-.hero-card-seperator:last-of-type {
-  display: none;
+@media (max-width: 1440px) {
+  .hero-content-layout {
+    width: 413px !important;
+  }
+
+  .hero-content-lg-title {
+    font-size: 40px;
+    line-height: 50.4px;
+  }
+
+  .hero-subwrapper {
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .hero-content-cards-layout {
+    width: 820px;
+  }
+
+  .hero-content-card-gap {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 850px) {
+  .hero-content-cards-layout {
+    width: 620px;
+  }
+
+  .hero-card-layout {
+    width: 200px;
+    height: 360px;
+    justify-content: space-between;
+  }
+
+  .hero-card-seperator {
+    display: none;
+  }
+
+  .sliding-coin-left {
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+  }
+
+  .sliding-coin-right {
+    width: 450px;
+    height: 450px;
+    background-size: 100%;
+  }
+
+  .sliding-coin-right-2 {
+    width: 250px;
+    height: 250px;
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sliding-coin-right-2 {
+    display: none;
+  }
+
+  .hero-content-cards-layout {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-card-layout {
+    width: 360px;
+    height: auto;
+    gap: 14px;
+  }
+
+  .hero-content-lg-title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .hero-content-sm-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .hero-subwrapper {
+    gap: 48px !important;
+  }
+
+  .hero-content-layout {
+    height: auto !important;
+    width: 360px !important;
+  }
+
+  .hero-card-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero-card-seperator {
+    display: block;
+    width: 320px;
+    height: 1px;
+    border: 1px solid var(--color-white-10);
+  }
+
+  .hero-content-card-gap {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-display {
+    overflow-y: scroll;
+  }
+
+  .heroLayout {
+    justify-content: end;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sliding-coin-left {
+    width: 130px;
+    height: 130px;
+    background-size: 100%;
+  }
+
+  .sliding-coin-right {
+    width: 250px;
+    height: 250px;
+    background-size: 100%;
+  }
+
+  .hero-content-layout {
+    width: 320px !important;
+  }
+
+  .hero-card-layout {
+    width: 320px;
+  }
+
+  .heroLayout {
+    padding-bottom: 20px;
+  }
 }

@@ -39,6 +39,7 @@ const HomePageNavbar = () => {
           <LanguageSwitch />
 
           <PrimaryButton
+            navbar
             title={t("panel_login")}
             bac={"var(--color-bg-secondary)"}
             textColor={"var(--color-content-text)"}

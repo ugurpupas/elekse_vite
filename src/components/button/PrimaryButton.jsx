@@ -1,10 +1,12 @@
 import React from "react";
 
-const PrimaryButton = ({ title, bac, textColor }) => {
+const PrimaryButton = ({ navbar, title, bac, textColor }) => {
   return (
     <div
       style={{ backgroundColor: bac, color: textColor }}
-      className="button-layout body-12-semibold"
+      className={`button-layout body-12-semibold ${
+        navbar && "panel-button-layout"
+      }`}
     >
       {title}
     </div>
